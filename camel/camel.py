@@ -1,4 +1,4 @@
-user_input = input("input ")
+user_input = input("input: ")
 u_input = ""
 
 for char in user_input:

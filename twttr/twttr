@@ -1,0 +1,6 @@
+user_input = input("Tweet something ")
+result = ""
+for ch in user_input:
+    if ch not in "aeuioAEUIO":
+        result += ch
+print(result)
