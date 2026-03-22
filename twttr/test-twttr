@@ -1,5 +1,5 @@
 from twttr import shorten
 
 
-def test_twttr():
+def test_twttr(word):
     assert shorten("twitter") == "twttr"
