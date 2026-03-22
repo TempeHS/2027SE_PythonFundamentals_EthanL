@@ -1,6 +1,15 @@
-user_input = input("Tweet something ")
-result = ""
-for ch in user_input:
-    if ch not in "aeuioAEUIO":
-        result += ch
-print(result)
+def main():
+    word = input("Input: ")
+    print(shorten(word))
+
+
+def shorten(word):
+    result = ""
+    for ch in word:
+        if ch not in "aeiouAEIOU":
+            result += ch
+    return result
+
+
+if __name__ == "__name__":
+    main()
